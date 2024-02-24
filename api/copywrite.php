@@ -13,11 +13,11 @@
 
     <ul class="nav col-md-4 justify-content-end mb-hide">
       <li class="nav-item"><a href="#" class="nav-link px-2 ">Home</a></li>
-      <li class="nav-item"><a href="/about.html" class="nav-link px-2 ">About</a></li>
-      <li class="nav-item"><a href="/studio.html" class="nav-link px-2 ">Studio<strong>.</strong></a></li>
-      <li class="nav-item"><a href="/tools.html" class="nav-link px-2 ">Tools</a></li>
-      <li class="nav-item"><a href="/Link.html" class="nav-link px-2 ">Link</a></li>
-      <li class="nav-item"><a href="/Contact.html" class="nav-link px-2 ">Contact</a></li>
+      <li class="nav-item"><a href="/about.php" class="nav-link px-2 ">About</a></li>
+      <li class="nav-item"><a href="/studio.php" class="nav-link px-2 ">Studio<strong>.</strong></a></li>
+      <li class="nav-item"><a href="/tools.php" class="nav-link px-2 ">Tools</a></li>
+      <li class="nav-item"><a href="/Link.php" class="nav-link px-2 ">Link</a></li>
+      <li class="nav-item"><a href="/Contact.php" class="nav-link px-2 ">Contact</a></li>
 
     </ul>
     </div> 
