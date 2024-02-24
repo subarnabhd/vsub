@@ -512,9 +512,9 @@
       </div>
     </div>
   </main>
-  <footer>
+
   <?php include 'copywrite.php'; ?>
-  </footer>
+
 
 
   <script src="./js/script.js"></script>
