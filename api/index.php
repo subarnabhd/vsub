@@ -14,5 +14,8 @@
         <p>This is the home page of our website.</p>
         <!-- Add your content here -->
     </main>
+
+    <?php include 'footer.php'; ?>
+
 </body>
 </html>
