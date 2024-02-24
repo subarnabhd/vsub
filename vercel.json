@@ -5,9 +5,10 @@
     }
   },
   "routes": [
-    { "src": "/css/*", "dest": "/css/$1" },
-    { "src": "/script/*", "dest": "/script/$1" },
-    { "src": "/image/*", "dest": "/image/$1" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
+    { "src": "/css/style.css", "dest": "/css/style.css" },
+    { "src": "/css/home.css", "dest": "/css/home.css" },
+    { "src": "/css/header.css", "dest": "/css/header.css" },
+    { "src": "/script/script.js", "dest": "/script/script.js" },
+    { "src": "/(.*)",  "dest": "/api/index.php" }
   ]
 }
