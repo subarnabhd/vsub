@@ -19,19 +19,19 @@
             </li>
 
             <li class="nav-item t-link">
-                <a class="nav-link" href="/about.html">About</a>
+                <a class="nav-link" href="/about.php">About</a>
             </li>
 
             <li class="nav-item t-link">
-                <a class="nav-link" href="/studio.html">Studio<strong>.</strong></a>
+                <a class="nav-link" href="/studio.php">Studio<strong>.</strong></a>
             </li>
 
             <li class="nav-item t-link">
-            <a class="nav-link"  href="/portfolio.html">Portfolio</a>
+            <a class="nav-link"  href="/portfolio.php">Portfolio</a>
             </li>
 
             <li class="nav-item t-link">
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" href="/contact.php">Contact</a>
             </li>
 
         </ul>
