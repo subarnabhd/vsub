@@ -9,7 +9,9 @@
       { "src": "/css/(.*)", "dest": "/css/$1" }, // Route for CSS files
       { "src": "/js/(.*)", "dest": "/js/$1" },   // Route for JavaScript files
       { "src": "/images/(.*)", "dest": "/images/$1" }, // Route for image files
-      { "src": "/(.*)", "dest": "/index.php" }  // Catch-all route for all other paths
+      { "src": "/api/(.*)", "dest": "/api/$1" }, // Route for API endpoints (if applicable)
+      { "src": "/(.+\\.php)", "dest": "/$1" },  // Route for PHP files
+      { "src": "/(.*)", "dest": "/index.html" }  // Catch-all route for all other paths
     ]
   }
   
