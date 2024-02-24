@@ -19,7 +19,9 @@
     { "src": "/home", "dest": "/api/home.php" },  
     { "src": "/portfolio", "dest": "/api/portfolio.php" },  
     { "src": "/pay", "dest": "/api/pay.php" },  
-    
+    { "src": "/studio", "dest": "/api/studio.php" },  
+
+
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
