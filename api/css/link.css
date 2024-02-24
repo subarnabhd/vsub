@@ -1,0 +1,386 @@
+hr {
+  text-align: center;
+  border: 1px solid var(--border);
+  margin: 12px;
+}
+.firstcard {
+  margin: 25px;
+}
+.firstcard h1 {
+  color: var(--white);
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.02em;
+}
+.firstcard h2 {
+  color: #969696;
+  font-size: 18px;
+  font-weight: 200;
+}
+.followcard {
+  min-height: calc(100vh - 64px);
+  padding: 100px 0px;
+  background-color: var(--black);
+}
+.followcard2 {
+  /* background-image: url("./image/bg2.png"); */
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  /* min-height: 100vh; */
+  padding: 100px 0px 100px 0px;
+  background-size: cover;
+  background-color: var(--background);
+}
+.followcard3 {
+  padding: 200px 0px;
+  background-color: var(--background);
+  display: flex;
+}
+.followcard4 {
+  padding: 300px 0px;
+  background-color: var(--white);
+}
+
+.followcard3 .col {
+  margin: auto;
+}
+.sicons {
+  padding: 12px;
+  margin: 0px;
+  display: flex;
+  gap: 10px !important;
+}
+.fbutton {
+  min-width: 115px;
+
+  margin: 0px;
+  padding: 8px;
+}
+.fbutton img {
+  width: 70px;
+}
+
+.fstudio {
+  padding: 12px;
+}
+.ycol2 {
+  display: flex;
+  gap: 20px;
+}
+.chatbox {
+  align-items: center;
+  padding: 20px 12px;
+  justify-content: center;
+}
+.chatbox .bhdbutton {
+  max-width: 100px;
+  height: 100px;
+  border-radius: 1000px;
+}
+.firstcard {
+  width: auto;
+  align-items: center;
+  text-align: center;
+}
+.firstcard img {
+  width: 200px;
+  margin: 25px;
+  border-radius: 1000px;
+  align-items: center;
+  text-align: center;
+}
+/* Studio Section Start */
+.studiocard {
+  /* width: 250px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #000;
+  border-radius: 12px;
+  border: 1px solid #111111;
+  margin-bottom: 30px;
+}
+.studiocard img {
+  width: 100px;
+}
+.studiocard a {
+  /* border-radius: 6px; */
+  font-weight: 300;
+  color: var(--background);
+  padding: 6px 16px;
+  background-color: red;
+  text-decoration: none;
+  margin: 25px;
+  font-size: 12px;
+}
+.studiocard a:hover {
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  padding: 6px 16px;
+  background-color: #606060;
+  text-decoration: none;
+}
+/* Studio Section End */
+
+/* ------------- */
+
+/* Youtube Channel Section Start */
+
+.row {
+  gap: 20px;
+}
+
+/* Row Start */
+.toolsrow {
+  height: 100%;
+  text-align: center;
+  background: transparent;
+  margin: auto;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 0px;
+}
+/* ficol Start */
+.ficol {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* secol Start */
+.secol {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: initial;
+}
+.secol .bhdbutton img {
+  width: 60px;
+  align-content: left;
+  margin: 5px;
+}
+/* ficol End */
+
+/* bhdbutton end*/
+
+.tlinks {
+  display: flex;
+}
+
+/* Footer Start */
+.footer {
+  background-color: #f5f5f7;
+  text-align: center;
+}
+
+/* Footer End */
+
+/* CSS */
+
+.tbanner {
+  width: -webkit-fill-available;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  height: 253px;
+  /* background: #262626; */
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  text-decoration: none;
+  background: url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3494&q=80)
+    center center no-repeat;
+  background-size: cover;
+}
+.tbanner .c1name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.tbanner .c2name {
+  font-size: 14px;
+  font-weight: 200;
+  color: var(--gray);
+}
+
+.cbutton p {
+  /* font-size: 11px; */
+  color: var(--white);
+}
+.tbanner .cbutton {
+  padding: 0px !important;
+}
+
+.overlay {
+  z-index: 9;
+  background: #00000089;
+  border-radius: 8px;
+}
+.ttile {
+  text-align: initial;
+  font-size: 14px;
+  color: #8f8f8f;
+  font-weight: 300;
+  padding: 10px 10px 0px 10px;
+}
+.titlehead {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+/* Youtube Channel Section Start */
+.ytcontent {
+  width: auto;
+  align-items: center;
+  text-align: center;
+}
+.ytcontent img {
+  border-radius: 800px;
+  width: 50px;
+  height: 50px;
+}
+.ytcontent h2 {
+  color: var(--white);
+  padding: 5px 0px 5px 0px;
+}
+.ytcontent p {
+}
+.ytbutton {
+  border-radius: 24px;
+  padding: 20px 20px 40px 20px;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  text-decoration: none;
+  box-shadow: 0 48px 100px 0 rgba(17, 12, 46, 0.05);
+}
+.ytbutton:hover {
+  box-shadow: 0 48px 100px 0 rgba(17, 12, 46, 0.127);
+}
+
+.ytbutton img {
+  padding: 5px;
+  width: 100px;
+  align-content: center;
+  margin: 15px;
+  border-radius: 1000px;
+  border: 1px solid #47474719;
+}
+.ytbutton .cbutton p {
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 0px;
+}
+.ytbutton .c1name {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+  padding: 10px 0px 5px 0px !important;
+}
+.ytbutton .c2name {
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 14px;
+  padding-bottom: 15px !important;
+  letter-spacing: 0.8px;
+}
+/* Youtube Channel Section End */
+
+/* Instagram Section Start  */
+.followcard4 {
+  padding: 200px 0px;
+  background-color: #f5f5f7;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+.followcard4 img {
+  width: 80px;
+}
+.followcard4 .icontain h2 {
+  color: var(--black);
+}
+.followcard4 .icontain {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin: 50px 0 0 0;
+  justify-content: center;
+}
+.followcard4 .ibutton {
+  border-radius: 24000px;
+  padding: 16px 16px;
+  display: flex;
+  gap: 20px;
+  align-content: center;
+  align-items: center;
+  max-width: 380px;
+}
+.followcard4 .icontain img {
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  width: 80px;
+}
+.followcard4 .ibutton .itext{
+text-align: left;
+  }
+.followcard4 .ibutton .c1name{
+font-size: 20px;
+font-weight: 600;
+color: var(--black);
+}
+
+
+/* Instagram Section  End  */
+
+/* Mobile Responsive Start*/
+
+@media only screen and (max-width: 600px) {
+  .bhdbutton {
+    width: -webkit-fill-available;
+  }
+  .sticky {
+    position: relative;
+    top: 0px;
+  }
+  .tbanner .c1name {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .tbanner .c2name {
+    font-size: 12px;
+  }
+  .tbanner {
+    height: 160px;
+  }
+  .popbar {
+    display: none;
+    visibility: hidden;
+  }
+  .cheader img {
+    width: 30px;
+    margin-right: 5px;
+  }
+  .tbutton {
+    font-size: 9px;
+  }
+  .ycol2 {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 !important;
+  }
+  .yrow {
+    flex-direction: column;
+  }
+  .ycol2 .col {
+    min-height: initial !important;
+  }
+  .yrow .col {
+    min-height: initial !important;
+  }
+}
+
+/* Mobile Responsive End*/

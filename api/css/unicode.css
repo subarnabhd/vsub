@@ -1,0 +1,125 @@
+
+  .u-body{
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    align-content: center;
+    text-align: center;
+    display: grid;
+    min-height: calc(100vh - 128px);
+  }
+  .card {
+    /* height: 100%; */
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 24px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.034) !important;
+    max-width: 800px;
+  }
+  .logoheader {
+    padding: 20px;
+  }
+  .logo img {
+    width: 70px;
+    align-content: center;
+    margin: 10px;
+    /* background-color: #fff; */
+    border-radius: 500px;
+  }
+  .logotext img {
+    width: 150px;
+    align-content: center;
+    /* margin: 20px; */
+  }
+  .logo img:hover {
+    transform: rotate(360deg);
+    border-radius: 10000px;
+      box-shadow: rgba(255, 0, 0, 0.242) 0px 7px 25px 0px;
+  
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  .logoheader{
+    display: flex;
+    text-align: left;
+    align-items: center;
+
+  }
+  .logoheader .card-title {
+    color: var(--white)!important;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin: 0px;
+    line-height: 25px;
+  }
+  
+.logoheader small{
+  font-weight: 600;
+  font-size: 30px;
+}
+  .card-tagline {
+    color: rgb(94, 94, 94) !important;
+    font-weight: 150;
+    font-size: 12px;
+    letter-spacing: 0px;
+    margin: 0px;
+  }
+  .frame{
+    min-width:774px;
+  }
+
+  
+
+  
+  .unicode_cap {
+    width: 190px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #f5f5f5;
+    font-family: "Roboto" !important;
+    padding-left: 10px;
+    border-left: 1px solid #eeca6c;
+    border-top: 1px solid #eeca6c;
+    border-right: 1px solid #eeca6c;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    text-shadow: none !important;
+    border: none !important;
+    background-color: #de402e !important;
+    background: red;
+  }
+  strong {
+    text-shadow: none !important;
+  
+  }
+  
+  #converter {
+    background-color: #de402e !important;
+  }
+  .button-card span {
+    display: none;
+    visibility: hidden;
+  }
+  .textarea_unicode {
+    width: 100%!important;
+    border: 1px solid #ffffff!important;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .frame{
+      min-width:300px;
+    }
+    
+  }
+  
+  
+  
+  .unicode_cap {
+    background-color: #fd0000!important;
+  }

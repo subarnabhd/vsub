@@ -1,0 +1,55 @@
+.scopywrite {
+  background-color: #000000;
+  border-top: 1px solid var(--border);
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+.s-copywrite {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.s-copywrite .s-copy {
+  color: var(--gray);
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+.s-copywrite a {
+  color: var(--gray);
+}
+.s-copywrite a:hover{
+  color: var(--red);
+}
+.s-copywrite i {
+  color: rgb(190, 15, 15);
+}
+.s-copywrite .copywrite:hover i {
+  color: rgb(216, 0, 0);
+}
+.s-copywrite img {
+  width: 30px;
+}
+.s-copywrite {
+  text-align: left;
+}
+.s-copywrite .nav-link {
+  color: var(--gray);
+}
+.s-copywrite .nav-link:hover {
+  color: var(--white);
+}
+.s-copywrite strong {
+  color: var(--gray);
+}
+.s-copywrite span:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+.s-copywrite:hover strong {
+  color: var(--red);
+  cursor: pointer;
+}
