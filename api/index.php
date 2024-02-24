@@ -35,11 +35,11 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- CSS Link -->
-  <link rel="stylesheet" href="api" />
-  <link rel="stylesheet" href="api/css/header.css" />
-  <link rel="stylesheet" href="api/css/home.css" />
-  <link rel="stylesheet" href="api/css/footer.css" />
-  <link rel="stylesheet" href="api/css/copywrite.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/header.css" />
+  <link rel="stylesheet" href="/css/home.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+  <link rel="stylesheet" href="/css/copywrite.css" />
 
   <!-- SLIDER -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
