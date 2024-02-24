@@ -4,15 +4,12 @@
       "runtime": "vercel-php@0.7.0"
     }
   },
-  {
-    "routes": [
-      { "src": "/css/(.*)", "dest": "/css/$1" }, // Route for CSS files
-      { "src": "/js/(.*)", "dest": "/js/$1" },   // Route for JavaScript files
-      { "src": "/images/(.*)", "dest": "/images/$1" }, // Route for image files
-      { "src": "/api/(.*)", "dest": "/api/$1" }, // Route for API endpoints (if applicable)
-      { "src": "/(.+\\.php)", "dest": "/$1" },  // Route for PHP files
-      { "src": "/(.*)", "dest": "/index.html" }  // Catch-all route for all other paths
-    ]
-  }
-  
+  "routes": [
+    { "src": "/css/(.*)", "dest": "/css/$1" },  
+    { "src": "/js/(.*)", "dest": "/js/$1" },    
+    { "src": "/images/(.*)", "dest": "/images/$1" },  
+    { "src": "/api/(.*)", "dest": "/api/$1" },  
+    { "src": "/(.+\\.php)", "dest": "/$1" },   
+    { "src": "/(.*)", "dest": "/index.html" }   
+  ]
 }
