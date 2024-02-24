@@ -6,6 +6,8 @@
   },
   "routes": [
     
+    { "src": "/about", "dest": "/about.php" },
+    { "src": "/tools", "dest": "/tools.php" },
 
 
     { "src": "/script/(.*)", "dest": "/script/$1" },
