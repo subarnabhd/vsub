@@ -684,6 +684,7 @@
 
     <?php include 'footer.php'; ?>
     <?php include 'copywrite.php'; ?>
+    <?php include 'modal.php'; ?>
 
 
 </body>
