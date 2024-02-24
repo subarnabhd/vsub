@@ -15,9 +15,7 @@
     "api/link.php": {
       "runtime": "vercel-php@0.7.0"
     },
-    "api/home.php": {
-      "runtime": "vercel-php@0.7.0"
-    },
+  
     "api/portfolio.php": {
       "runtime": "vercel-php@0.7.0"
     },
