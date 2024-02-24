@@ -11,5 +11,6 @@
     { "src": "/api/(.*)", "dest": "/api/$1" },  
     { "src": "/(.+\\.php)", "dest": "/$1" },   
     { "src": "/(.*)", "dest": "/api/$1" }   
+    { "src": "/api/tools.php", "dest": "/api/tools.php" },
   ]
 }
