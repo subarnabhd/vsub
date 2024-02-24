@@ -5,6 +5,27 @@
     },
     "api/tools.php": {
       "runtime": "vercel-php@0.7.0"
+    },
+    "api/about.php": {
+      "runtime": "vercel-php@0.7.0"
+    },
+    "api/contact.php": {
+      "runtime": "vercel-php@0.7.0"
+    },
+    "api/link.php": {
+      "runtime": "vercel-php@0.7.0"
+    },
+    "api/home.php": {
+      "runtime": "vercel-php@0.7.0"
+    },
+    "api/portfolio.php": {
+      "runtime": "vercel-php@0.7.0"
+    },
+    "api/pay.php": {
+      "runtime": "vercel-php@0.7.0"
+    },
+    "api/studio.php": {
+      "runtime": "vercel-php@0.7.0"
     }
   },
   "routes": [
@@ -12,19 +33,8 @@
     { "src": "/js/(.*)", "dest": "/js/$1" },  
     { "src": "/image/(.*)", "dest": "/image/$1" }, 
 
-    { "src": "/tools", "dest": "/api/tools.php" },  
-    { "src": "/about", "dest": "/api/about.php" },  
-    { "src": "/contact", "dest": "/api/contact.php" },  
-    { "src": "/link", "dest": "/api/link.php" },  
-    { "src": "/home", "dest": "/api/home.php" },  
-    { "src": "/portfolio", "dest": "/api/portfolio.php" },  
-    { "src": "/pay", "dest": "/api/pay.php" },  
-    { "src": "/studio", "dest": "/api/studio.php" },  
-
+    { "src": "/(tools|about|contact|link|home|portfolio|pay|studio)", "dest": "/api/$1.php" },
 
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
-
-
-
