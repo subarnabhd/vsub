@@ -20,31 +20,31 @@
         </li>
 
         <li>
-            <a href="/about.html">About</a>
+            <a href="/about.php">About</a>
         </li>
 
         <li>
-            <a href="/studio.html">Studio<strong>.</strong></a>
+            <a href="/studio.php">Studio<strong>.</strong></a>
         </li>
 
         <li>
-            <a href="/portfolio.html">Portfolio</a>
+            <a href="/portfolio.php">Portfolio</a>
         </li>
 
         <li>
-            <a href="/link.html">Link</a>
+            <a href="/link.php">Link</a>
         </li>
 
         <li>
-            <a href="/blog.html">Blog</a>
+            <a href="/blog.php">Blog</a>
         </li>
 
         <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.php">Contact</a>
         </li>
 
         <li>
-        <a href="/tools.html">Tools</a>
+        <a href="/tools.php">Tools</a>
         </li>
 
         <li>
