@@ -7,8 +7,12 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Welcome to the Home Page!</h1>
-    <p>This is the home page of our website.</p>
-    <a href="index.php">Go to Index</a>
+    <?php include 'header.php'; ?>
+
+    <main>
+        <h1>Welcome to the Home Page!</h1>
+        <p>This is the home page of our website.</p>
+        <!-- Add your content here -->
+    </main>
 </body>
 </html>
