@@ -513,7 +513,7 @@
     </div>
   </main>
   <footer>
-    <div class="scopywrite"></div>
+  <?php include 'copywrite.php'; ?>
   </footer>
 
 
