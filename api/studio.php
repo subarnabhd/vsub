@@ -1,3 +1,4 @@
+<?php declare(strict_types = 1); ?>
 <!DOCTYPE html>
 <html>
 
@@ -562,8 +563,7 @@
 
   <script src="/script/header.js"></script>
   <script src="./script/script.js"></script>
-  <script src="./script/footer.js"></script>
-  <script src="./script/copywrite.js"></script>
+
 </body>
 
 </html>
