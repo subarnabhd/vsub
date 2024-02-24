@@ -16,6 +16,6 @@
 
 
     { "src": "/image/(.*)", "dest": "/image/$1" },
-    { "src": "/(.*)",  "dest": "/api/index.php" }
+    { "src": "/(.*)", "dest": "/index.php" }
   ]
 }
