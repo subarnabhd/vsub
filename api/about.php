@@ -6,9 +6,9 @@
   <link rel="shortcut icon" href="./image/favi.png" />
   <meta name="google-site-verification" content="Ztk88ACyEy4hrThBcX8xX4808NU10tv60ClxkgcWGNQ" />
 
-<!-- HTML Meta Tags -->
-<title>About. Subarna</title>
-<meta name="description" content="About. Subarna">
+  <!-- HTML Meta Tags -->
+  <title>About. Subarna</title>
+  <meta name="description" content="About. Subarna">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -28,8 +28,10 @@
     rel="stylesheet">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!-- CSS Link -->
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/header.css" />
@@ -39,7 +41,7 @@
 
 <body>
 
-<?php include 'header.php'; ?>
+  <?php include 'header.php'; ?>
 
   <main>
 
@@ -67,17 +69,20 @@
         <div class="ahome-col-2 col">
           <h3>About me in 10 seconds</h3><br>
           <p>Hello! I’m Subarna, a web, graphic, and UI/UX designer in Kathmandu, Nepal.<br><br>
-            I help business owners and entrepreneurs create their brand identities, have an online presence, and turn their businesses into the next best thing
+            I help business owners and entrepreneurs create their brand identities, have an online presence, and turn
+            their businesses into the next best thing
             in the market! Design for me more than just digital applications. I am a painter, a crafter, a photographer,
-            and love decorating spaces. It wasn’t a feasible business plan but it was a creative outlet for me and I loved
+            and love decorating spaces. It wasn’t a feasible business plan but it was a creative outlet for me and I
+            loved
             it!
             In 2015, I started Designing and never looked back. Now, in my 5 years, I have worked with clients from all
             genres across the globe and it’s been an amazing journey. I am always looking forward to the opportunities,
             both online/freelance and in-house, to learn and flex my creative skills towards building an impactful
             brand.<br>
             When I’m not glued to the computer, I like to spend time watching movies, painting. I am also an adrenaline
-            junkie and love all sports above and below ground level – doesn’t mean I’m necessarily good at them all!</p><br>
-            <h6>Creating the Brand that people Love.</h6><br>
+            junkie and love all sports above and below ground level – doesn’t mean I’m necessarily good at them all!</p>
+          <br>
+          <h6>Creating the Brand that people Love.</h6><br>
           <a href="https://subarnabhandari.com">Subarnabhandari.com</a>
 
 
@@ -100,21 +105,15 @@
   <?php include 'modal.php'; ?>
 
 
-
-
-
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-  crossorigin="anonymous"></script>
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
-  <script src="/js/header.js"></script>
   <script src="./js/script.js"></script>
-  <script src="./js/copywrite.js"></script>
 
 </body>
 
