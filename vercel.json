@@ -11,6 +11,7 @@
     { "src": "/css/footer.css", "dest": "/css/footer.css" },
     { "src": "/css/copywrite.css", "dest": "/css/copywrite.css" },
     { "src": "/script/script.js", "dest": "/script/script.js" },
+    { "src": "/image/(.*)", "dest": "/image/$1" },
     { "src": "/(.*)",  "dest": "/api/index.php" }
   ]
 }
