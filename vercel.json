@@ -5,12 +5,12 @@
     }
   },
   "routes": [
-    { "src": "/css/(.*)", "dest": "/css/$1" },  
-    { "src": "/js/(.*)", "dest": "/js/$1" },    
-    { "src": "/images/(.*)", "dest": "/images/$1" },  
-    { "src": "/api/(.*)", "dest": "/api/$1" },  
-    { "src": "/(.+\\.php)", "dest": "/$1" },   
-    { "src": "/(.*)", "dest": "/api/$1" }, 
-    { "src": "/tools", "dest": "/tools.html" },
+    { "src": "/api/tools.php", "dest": "/api/tools.php" },
+    { "src": "/css/(.*)", "dest": "/css/$1" }, // Route for CSS files
+    { "src": "/js/(.*)", "dest": "/js/$1" },   // Route for JavaScript files
+    { "src": "/images/(.*)", "dest": "/images/$1" }, // Route for image files
+    { "src": "/api/(.*)", "dest": "/api/$1" }, // Route for other API endpoints (if applicable)
+    { "src": "/(.+\\.php)", "dest": "/$1" },  // Route for PHP files
+    { "src": "/(.*)", "dest": "/index.html" }  // Catch-all route for all other paths
   ]
 }
