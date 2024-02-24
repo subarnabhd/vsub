@@ -504,8 +504,10 @@
         </div>
       </div>
     </main>
+    
     <footer>
-      <div class="scopywrite"></div>
+    <?php include 'copywrite.php'; ?>
+
     </footer>
 
     <!-- Modal Menu Start-->
