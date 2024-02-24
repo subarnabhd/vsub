@@ -1,4 +1,5 @@
 
+<footer>
     <div class="sfooter">
 <div class="container">
 <div class="s-section1">
@@ -75,3 +76,4 @@
 </div>
 
 </div>
+</footer>
