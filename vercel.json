@@ -28,7 +28,7 @@
   },
   "routes": [
     { "src": "/css/(.*)", "dest": "/css/$1" }, 
-    { "src": "/script/(.*)", "dest": "/script/$1" },  
+    { "src": "/js/(.*)", "dest": "/js/$1" },  
     { "src": "/image/(.*)", "dest": "/image/$1" }, 
 
     { "src": "/(tools|about|contact|link|portfolio|pay|studio)", "dest": "/api/$1.php" },
