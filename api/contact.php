@@ -42,9 +42,8 @@
 
 <body>
 
-    <header class="theader minimal">
-        <nav id="main-nav"></nav>
-    </header>
+<?php include 'header.php'; ?>
+
 
     <main>
 

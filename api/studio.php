@@ -67,9 +67,7 @@
   </head>
 
   <body>
-    <header class="theader minimal transparent">
-      <nav id="main-nav"></nav>
-    </header>
+  <?php include 'header.php'; ?>
 
     <main>
       <div class="s-banner d-nav">
