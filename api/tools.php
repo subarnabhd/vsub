@@ -517,10 +517,10 @@
   </footer>
 
 
-  <script src="/script/tools.header.js"></script>
-  <script src="./script/script.js"></script>
-  <script src="./script/date.js"></script>
-  <script src="./script/copywrite.js"></script>
+  <script src="/js/tools.header.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/date.js"></script>
+  <script src="./js/copywrite.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

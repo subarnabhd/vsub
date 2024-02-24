@@ -904,7 +904,7 @@
 
   </div>
 
-  <script src="./Script/pay.js"></script>
+  <script src="./js/pay.js"></script>
 
 </body>
 

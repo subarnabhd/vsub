@@ -291,9 +291,9 @@
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-    <script src="/script/header.js"></script>
-    <script src="./script/script.js"></script>
-    <script src="./script/copywrite.js"></script>
+    <script src="/js/header.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/copywrite.js"></script>
 
 </body>
 
