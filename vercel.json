@@ -10,7 +10,7 @@
     { "src": "/images/(.*)", "dest": "/images/$1" },  
     { "src": "/api/(.*)", "dest": "/api/$1" },  
     { "src": "/(.+\\.php)", "dest": "/$1" },   
-    { "src": "/(.*)", "dest": "/api/$1" }   
+    { "src": "/(.*)", "dest": "/api/$1" }, 
     { "src": "/tools", "dest": "/tools.html" },
   ]
 }
