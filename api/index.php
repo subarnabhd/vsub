@@ -682,6 +682,8 @@
 
 
     <?php include 'footer.php'; ?>
+    <?php include 'copywrite.php'; ?>
+
 
 </body>
 </html>
