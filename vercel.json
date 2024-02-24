@@ -31,7 +31,7 @@
     { "src": "/js/(.*)", "dest": "/js/$1" },  
     { "src": "/image/(.*)", "dest": "/image/$1" }, 
 
-    { "src": "/(tools|about|contact|link|home|portfolio|pay|studio)", "dest": "/api/$1.php" },
+    { "src": "/(tools|about|contact|link|portfolio|pay|studio)", "dest": "/api/$1.php" },
 
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
